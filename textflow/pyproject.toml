@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "textflow"
+version = "0.1.0"
+description = "A text analysis library for Python"
+authors = ["Jaime Collado <jcollado@ujaen.es>", "Estrella Vallecillo <mevr0003@red.ujaen.es>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+nltk = "^3.7"
+spacy = "^3.3.0"
+transformers = "^4.19.0"
+torch = {version = "^1.11.0", python = "^3.7", platform = "linux"}
+lexical-diversity = "^0.1.1"
+emoji = "^1.7.0"
+pandas = {version = "^2.1.1", python = ">=3.9,<4.0"}
+numpy = {version = "^1.26.0", python = ">=3.9,<3.13"}
+scipy = {version = "^1.11.3", python = ">=3.9,<3.13"}
+statsmodels = {version = "^0.14.0", python = ">=3.8,<4.0"}
+matplotlib = {version = "^3.8.0", python = ">=3.9,<4.0"}
+seaborn = {version = "^0.13.0", python = ">=3.8,<4.0"}
+wordcloud = "^1.9.2"
+scikit-learn = {version = "^1.3.2", python = ">=3.8,<4.0"}
+ipython= {version = "^8.17.2", python = ">=3.9,<4.0"}
+xgboost = {version = "^2.0.2", python = ">=3.8,<4.0"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
